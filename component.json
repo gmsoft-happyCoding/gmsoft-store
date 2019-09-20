@@ -1,0 +1,6 @@
+{
+  "version": "1.0.0",
+  "description": "localStorage,sessionStorage 设置、获取工具",
+  "name": "gm-storage",
+  "main": "src/index.ts"
+}
