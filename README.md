@@ -1,2 +1,2 @@
 # gm-storage
-localStorage,sessionStorage 设置、获取工具
+前端缓存策略 设置、获取工具
