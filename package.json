@@ -1,7 +1,7 @@
 {
-  "name": "gm-storage",
+  "name": "gm-store",
   "version": "1.0.0",
-  "description": "localStorage,sessionStorage 设置、获取工具",
+  "description": "前端缓存策略",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
   "typings": "lib/index.d.ts",

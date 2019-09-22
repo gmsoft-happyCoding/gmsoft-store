@@ -4,6 +4,6 @@
  * @Last Modified by: GM20171202
  * @Last Modified time: 2019-09-20 15:58:33
  */
-import { getKeys } from "./getKeys";
+import { getStorage } from './getStorage';
 
-export const getStorageKeys = () => getKeys(localStorage);
+export const getStorageKeys = getStorage;
