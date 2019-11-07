@@ -39,11 +39,11 @@
 | removeLocalStoreBy   | 调用回调函数，清除对应的 Localstorage                     | removeLocalStoreBy(cb:(key:string)=>boolean)                                          | void | ```警告``` 操作的范围为任意key        |
 | clearLocalStore      | 清空 通过gmsoft-store创建的非冻结状态的Localstorage数据   | clearLocalStore()=>boolean)                                                           | void | -                                     |
 | setLocalStore        | 创建 Localstorage 数据                                    | setLocalStore(params:[SetParams](./src/type.d.ts))                                    | void | -                                     |
-| getLocalStore        | 获取 Localstorage 数据                                    | setLocalStore(key:string) <br/>setLocalStore(params:[GetParams](./src/type.d.ts))     | void | ```冻结模式只能用GetParams模式调用``` |
+| getLocalStore        | 获取 Localstorage 数据                                    | setLocalStore(key:string) <br/>setLocalStore(params:[GetParams](./src/type.d.ts))     | any | ```冻结模式只能用GetParams模式调用``` |
 | removeSessionStoreBy | 调用回调函数，清除对应的 Sessionstorage                   | removeSessionStoreBy(cb:(key:string)=>boolean)                                        | void | ```警告``` 操作的范围为任意key        |
 | clearSessionStore    | 清空 通过gmsoft-store创建的非冻结状态的Sessionstorage数据 | clearSessionStore()=>boolean)                                                         | void | -                                     |
 | setSessionStore      | 创建 Sessionstorage 数据                                  | setSessionStore(params:[SetParams](./src/type.d.ts))                                  | void | -                                     |
-| getSessionStore      | 获取 Sessionstorage 数据                                  | setSessionStore(key:string) <br/>setSessionStore(params:[GetParams](./src/type.d.ts)) | void | ```冻结模式只能用GetParams模式调用``` |
+| getSessionStore      | 获取 Sessionstorage 数据                                  | setSessionStore(key:string) <br/>setSessionStore(params:[GetParams](./src/type.d.ts)) | any | ```冻结模式只能用GetParams模式调用``` |
 
 
 
