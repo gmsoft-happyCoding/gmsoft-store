@@ -34,21 +34,26 @@
 ```
 ## Api  
 
-| api                  | 描述                                                      | 调用                                                                                  | 返回 | 注意                                  |
-| -------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------- | ---- | ------------------------------------- |
-| removeLocalStoreBy   | 调用回调函数，清除对应的 Localstorage                     | removeLocalStoreBy(cb:(key:string)=>boolean)                                          | void | ```警告``` 操作的范围为任意key        |
-| clearLocalStore      | 清空 通过gmsoft-store创建的非冻结状态的Localstorage数据   | clearLocalStore()=>boolean)                                                           | void | -                                     |
-| setLocalStore        | 创建 Localstorage 数据                                    | setLocalStore(params:[SetParams](./src/type.d.ts))                                    | void | -                                     |
-| getLocalStore        | 获取 Localstorage 数据                                    | setLocalStore(key:string) <br/>setLocalStore(params:[GetParams](./src/type.d.ts))     | any | ```冻结模式只能用GetParams模式调用``` |
-| removeSessionStoreBy | 调用回调函数，清除对应的 Sessionstorage                   | removeSessionStoreBy(cb:(key:string)=>boolean)                                        | void | ```警告``` 操作的范围为任意key        |
-| clearSessionStore    | 清空 通过gmsoft-store创建的非冻结状态的Sessionstorage数据 | clearSessionStore()=>boolean)                                                         | void | -                                     |
-| setSessionStore      | 创建 Sessionstorage 数据                                  | setSessionStore(params:[SetParams](./src/type.d.ts))                                  | void | -                                     |
-| getSessionStore      | 获取 Sessionstorage 数据                                  | setSessionStore(key:string) <br/>setSessionStore(params:[GetParams](./src/type.d.ts)) | any | ```冻结模式只能用GetParams模式调用``` |
+| api                  | 描述                                                      | 调用                                                                                  | 返回   | 注意                                  |
+| -------------------- | --------------------------------------------------------- | ------------------------------------------------------------------------------------- | ------ | ------------------------------------- |
+| createGroupKey       | 构造分组key                                               | createGroupKey(groupKey: string, itemKey: string)                                     | string | -                                     |
+| removeLocalStoreBy   | 调用回调函数，清除对应的 Localstorage                     | removeLocalStoreBy(cb:(key:string)=>boolean)                                          | void   | ```警告``` 操作的范围为任意key        |
+| clearLocalStore      | 清空 通过gmsoft-store创建的非冻结状态的Localstorage数据   | clearLocalStore()=>boolean)                                                           | void   | -                                     |
+| setLocalStore        | 创建 Localstorage 数据                                    | setLocalStore(params:[SetParams](./src/type.d.ts))                                    | void   | -                                     |
+| getLocalStore        | 获取 Localstorage 数据                                    | setLocalStore(key:string) <br/>setLocalStore(params:[GetParams](./src/type.d.ts))     | any    | ```冻结模式只能用GetParams模式调用``` |
+| removeSessionStoreBy | 调用回调函数，清除对应的 Sessionstorage                   | removeSessionStoreBy(cb:(key:string)=>boolean)                                        | void   | ```警告``` 操作的范围为任意key        |
+| clearSessionStore    | 清空 通过gmsoft-store创建的非冻结状态的Sessionstorage数据 | clearSessionStore()=>boolean)                                                         | void   | -                                     |
+| setSessionStore      | 创建 Sessionstorage 数据                                  | setSessionStore(params:[SetParams](./src/type.d.ts))                                  | void   | -                                     |
+| getSessionStore      | 获取 Sessionstorage 数据                                  | setSessionStore(key:string) <br/>setSessionStore(params:[GetParams](./src/type.d.ts)) | any    | ```冻结模式只能用GetParams模式调用``` |
 
 
 
 
 ## Update Log  
+
+- ### 1.0.2  
+  2019-11-07 
+  - 🌟 添加 createGroupKey
 
 - ### 1.0.1  
   2019-11-07 

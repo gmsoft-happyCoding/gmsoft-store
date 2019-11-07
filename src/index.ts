@@ -1,5 +1,6 @@
 import { removeStoreBy, clearStore, setStore, getStore } from './core';
 import { SetParams, GetParams } from './type.d';
+import { createGroupKey } from './wrap';
 
 /** 调用回调函数，移除Localstorage，【谨慎使用，会处理掉不该清理的数据】 */
 export const removeLocalStoreBy = (cb: (key: string) => boolean) => removeStoreBy('local', cb);
@@ -37,6 +38,8 @@ function getSessionStore(params) {
 
 export { getSessionStore };
 
+export { createGroupKey };
+
 export default {
   removeLocalStoreBy,
   clearLocalStore,
@@ -46,4 +49,5 @@ export default {
   clearSessionStore,
   setSessionStore,
   getSessionStore,
+  createGroupKey,
 };
