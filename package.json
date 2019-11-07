@@ -5,7 +5,7 @@
   "main": "lib/index.js",
   "module": "lib/index.es.js",
   "typings": "lib/index.d.ts",
-  "repository": "https://github.com/gmsoft-happyCoding/gm-storage.git",
+  "repository": "https://github.com/gmsoft-happyCoding/gmsoft-storage.git",
   "author": "dou <35251293+bdDandelion@users.noreply.github.com>",
   "license": "MIT",
   "publishConfig": {
@@ -23,13 +23,14 @@
   "devDependencies": {
     "@typescript-eslint/eslint-plugin": "^2.3.0",
     "@typescript-eslint/parser": "^2.3.0",
-    "rollup": "^1.21.4",
-    "rollup-plugin-commonjs": "^10.1.0",
-    "rollup-plugin-node-resolve": "^5.2.0",
+    "rollup": "^0.62.0",
+    "rollup-plugin-commonjs": "^9.1.3",
+    "rollup-plugin-copy": "^3.1.0",
+    "rollup-plugin-node-resolve": "^3.3.0",
     "rollup-plugin-peer-deps-external": "^2.2.0",
-    "rollup-plugin-typescript2": "^0.24.2",
-    "rollup-plugin-url": "^2.2.2",
-    "typescript": "^3.6.3"
+    "rollup-plugin-typescript2": "^0.17.0",
+    "rollup-plugin-url": "^1.4.0",
+    "typescript": "^3.3.3"
   },
   "files": [
     "lib"
