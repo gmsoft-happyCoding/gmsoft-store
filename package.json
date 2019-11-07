@@ -1,5 +1,5 @@
 {
-  "name": "gm-store",
+  "name": "gmsoft-store",
   "version": "1.0.0",
   "description": "前端缓存策略",
   "main": "lib/index.js",
