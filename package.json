@@ -1,11 +1,11 @@
 {
   "name": "gmsoft-store",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "前端缓存策略",
   "main": "lib/index.js",
   "module": "lib/index.es.js",
   "typings": "lib/index.d.ts",
-  "repository": "https://github.com/gmsoft-happyCoding/gmsoft-storage.git",
+  "repository": "https://github.com/gmsoft-happyCoding/gmsoft-store.git",
   "author": "dou <35251293+bdDandelion@users.noreply.github.com>",
   "license": "MIT",
   "publishConfig": {

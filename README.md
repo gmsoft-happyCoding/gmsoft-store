@@ -1,10 +1,12 @@
-# gmsoft-storage
+# gmsoft-store
 前端缓存策略 设置、获取工具
 # gmsoft-store 前端缓存策略 设置、获取工具  
+[![NPM](https://img.shields.io/npm/v/gmsoft-store.svg)](https://www.npmjs.com/package/gmsoft-store)
+[![DOWNLOAD](https://img.shields.io/npm/dt/gmsoft-store.svg)](https://www.npmjs.com/package/gmsoft-store)
 
 <!-- TOC -->
 
-- [gmsoft-storage](#gmsoft-storage)
+- [gmsoft-store](#gmsoft-store)
 - [gmsoft-store 前端缓存策略 设置、获取工具](#gmsoft-store-%E5%89%8D%E7%AB%AF%E7%BC%93%E5%AD%98%E7%AD%96%E7%95%A5-%E8%AE%BE%E7%BD%AE%E8%8E%B7%E5%8F%96%E5%B7%A5%E5%85%B7)
   - [Why](#Why)
   - [Todo](#Todo)
@@ -47,6 +49,11 @@
 
 
 ## Update Log  
+
+- ### 1.0.1  
+  2019-11-07 
+  - 🐞 修复 README.md 文档；
+  - 🐞 修复 npm 关联 github 代码库地址；
 
 - ### 1.0.0  
   2019-11-07 
